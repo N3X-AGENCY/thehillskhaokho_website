@@ -151,19 +151,16 @@
 		selectedRoom = room;
 		document.getElementById('booking-dialog').showModal();
 	}
-
+	import axios from 'axios';
 	async function handleSubmit(event) {
 		event.preventDefault();
 		const formData = new FormData(event.target);
 		if (!selectedRoom) return;
-		await fetch('/api/sendBookingForm', {
-			method: 'POST',
-			body: JSON.stringify({
-				name: formData.get('name'),
-				phone: formData.get('phone'),
-				lineId: formData.get('lineId'),
-				selectedRoomName: selectedRoom?.name
-			})
+		await axios.post('/api/sendBookingForm', {
+			name: formData.get('name'),
+			phone: formData.get('phone'),
+			lineId: formData.get('lineId'),
+			selectedRoomName: selectedRoom?.name
 		});
 
 		showDialog = false;
