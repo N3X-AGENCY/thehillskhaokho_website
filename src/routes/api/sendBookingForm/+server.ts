@@ -29,7 +29,10 @@ export const POST: RequestHandler = async ({ request }) => {
 
 	fetch('https://api.line.me/v2/bot/message/push', requestOptions)
 		.then((response) => response.text())
-		.then((result) => console.log(result))
-		.catch((error) => console.error(error));
-	return new Response('OK');
+		.then((result) => {
+			return new Response(result, { status: 200 });
+		})
+		.catch((error) => {
+			return new Response(error, { status: 500 });
+		});
 };

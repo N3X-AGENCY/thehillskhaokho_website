@@ -52,7 +52,9 @@
 	import { onMount } from 'svelte';
 	import gsap from 'gsap';
 	beforeNavigate(() => {
-		toggleNavigation();
+		if (IsNavigationOpen) {
+			toggleNavigation();
+		}
 	});
 	onMount(() => {
 		gsap.set(gsap.utils.toArray('.desktop_nav_item'), { opacity: 0 });
