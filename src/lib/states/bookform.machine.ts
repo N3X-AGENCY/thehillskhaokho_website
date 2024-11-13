@@ -54,7 +54,6 @@ export const bookingFormMachine = createMachine({
 			}
 		},
 		success: {
-			target: 'idle',
 			on: {
 				RESET: {
 					target: 'idle',

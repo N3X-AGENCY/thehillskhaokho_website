@@ -9,6 +9,8 @@
 
 	"book_now_cta": "Book Now",
 	"booking_amenities_title": "Amenities",
+	"booking_thank_you_title": "Thank You!",
+	"booking_thank_you_description": "We've received your booking request. Our team will reach out to you within the hour to confirm your reservation.",
 
 	"booking_dialog_title": "Book {room_name}",
 	"our_rooms_title": "Our Rooms",
@@ -25,6 +27,7 @@
 
 	"submit_booking": "Submit Booking",
 	"cancel": "Cancel",
+	"close": "Close",
 	"name": "Name",
 	"email": "Email",
 	"phone": "Phone",
@@ -95,5 +98,9 @@
 	"room_twinJacuzzi_description": "Twin room with private jacuzzi",
 
 	"room_familyOnsen_name": "Family Onsen",
-	"room_familyOnsen_description": "Family room with private onsen bath"
+	"room_familyOnsen_description": "Family room with private onsen bath",
+
+	"book_your_stay_now_cta": "Book Your Stay Now",
+	"rating_title": "{score}/5 Rating",
+	"happy_guests_title": "{number} Happy Guests"
 }

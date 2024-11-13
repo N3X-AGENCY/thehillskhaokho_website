@@ -9,6 +9,8 @@
 
 	"book_now_cta": "จองตอนนี้",
 	"booking_amenities_title": "สิ่งอำนวยความสะดวก",
+	"booking_thank_you_title": "ขอบคุณสำหรับการจอง",
+	"booking_thank_you_description": "เราได้รับการจองของคุณแล้ว ทีมงานของเราจะติดต่อกลับเร็วๆ นี้เพื่อยืนยันการจองของคุณ",
 
 	"booking_dialog_title": "จอง {room_name}",
 	"our_rooms_title": "ห้องพักของเรา",
@@ -25,6 +27,7 @@
 
 	"submit_booking": "ยืนยันการจอง",
 	"cancel": "ยกเลิก",
+	"close": "ปิด",
 	"name": "ชื่อ",
 	"email": "อีเมล",
 	"phone": "เบอร์โทรศัพท์",
@@ -94,5 +97,9 @@
 	"room_twinJacuzzi_description": "ห้องทวินพร้อมจากุซซี่ส่วนตัว",
 
 	"room_familyOnsen_name": "แฟมมิลี่ ออนเซน",
-	"room_familyOnsen_description": "ห้องพักสำหรับครอบครัวพร้อมอ่างอาบน้ำออนเซ็นส่วนตัว"
+	"room_familyOnsen_description": "ห้องพักสำหรับครอบครัวพร้อมอ่างอาบน้ำออนเซ็นส่วนตัว",
+
+	"book_your_stay_now_cta": "จองตอนนี้",
+	"rating_title": "{score}/5 คะแนน",
+	"happy_guests_title": "{number} ผู้พักสบายใจ"
 }

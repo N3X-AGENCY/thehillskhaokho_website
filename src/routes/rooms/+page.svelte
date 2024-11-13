@@ -216,8 +216,6 @@
 			}
 
 			case 'success': {
-				SendToBookingMachine({ type: 'RESET' });
-				document.getElementById('booking-dialog')?.close();
 				break;
 			}
 
@@ -256,6 +254,40 @@
 						Try Again
 					</button>
 				</div>
+			</div>
+		</div>
+	{:else if $BOOKING_SNAPSHOT.value === 'success'}
+		<div class="p-6 bg-white rounded-2xl">
+			<div class="text-center">
+				<div class="mb-4">
+					<svg
+						class="mx-auto h-12 w-12 text-green-500"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M5 13l4 4L19 7"
+						/>
+					</svg>
+				</div>
+				<h3 class="text-2xl font-bold text-gray-900 mb-2">
+					{m.booking_thank_you_title()}
+				</h3>
+				<p class="text-gray-600">
+					{m.booking_thank_you_description()}
+				</p>
+				<button
+					class="mt-6 bg-[#fcb100] text-black font-bold py-3 px-6 rounded-xl hover:bg-[#fcb100]/90 transition-all"
+					onclick={() => {
+						SendToBookingMachine({ type: 'RESET' });
+					}}
+				>
+					{m.close()}
+				</button>
 			</div>
 		</div>
 	{:else}
