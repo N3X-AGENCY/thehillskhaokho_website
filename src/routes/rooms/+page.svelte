@@ -182,7 +182,7 @@
 
 	BOOKING_SNAPSHOT.subscribe(async (snapshot) => {
 		if (browser === false) return;
-		console.log(snapshot);
+
 		switch (snapshot.value) {
 			case 'idle': {
 				document.getElementById('booking-dialog')?.querySelector('form')?.reset();
