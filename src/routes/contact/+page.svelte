@@ -60,7 +60,7 @@
 
 			<div class="space-y-8">
 				<div>
-					<h2 class="text-2xl font-bold mb-6">Contact Information</h2>
+					<h2 class="text-2xl font-bold mb-6">{m.contact_information()}</h2>
 					<div class="space-y-4">
 						<div class="flex items-start">
 							<div class="text-[#fcb100] mr-4">
@@ -80,7 +80,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold mb-1">Address</h3>
+								<h3 class="font-semibold mb-1">{m.contact_address_label()}</h3>
 								<a
 									target="_blank"
 									href="https://www.google.com/maps/dir//the+hills+resort+khaokan/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3120151554c7f897:0xacc5a790832780ca?sa=X&ved=1t:3061&ictx=111"
@@ -102,7 +102,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold mb-1">Phone</h3>
+								<h3 class="font-semibold mb-1">{m.contact_phone_label()}</h3>
 								<a href="tel:+66879981767" class="text-[#fcb100] underline">+66 87 998 1767</a>
 							</div>
 						</div>
@@ -118,7 +118,7 @@
 								</svg>
 							</div>
 							<div>
-								<h3 class="font-semibold mb-1">phone</h3>
+								<h3 class="font-semibold mb-1">{m.contact_email_label()}</h3>
 								<a href="mailto:thehills.resortkhaokho@gmail.com" class="text-[#fcb100] underline">
 									thehills.resortkhaokho@gmail.com
 								</a>

@@ -70,9 +70,9 @@
 
 <nav class="bg-white text-black fixed w-full h-20 z-2 flex justify-between items-center">
 	<div class="flex items-center justify-between w-full absolute inset-0 p-4 z-1">
-		<div class="text-[#fcb100] font-bold text-xl">
+		<a href="/" class="text-[#fcb100] font-bold text-xl">
 			<img src="/thehillslogo.jpg" alt="Paradise Resort" class="w-16 h-16 mix-blend-darken" />
-		</div>
+		</a>
 
 		<div class=" space-x-6 desktop_nav_container flex items-center">
 			<button
@@ -90,27 +90,18 @@
 			<a
 				href="/"
 				class="hover:text-[#fcb100] transition-colors hidden md:block opacity-0 desktop_nav_item"
-				>Home</a
+				>{m.menu_home()}</a
 			>
 			<a
 				href="/rooms"
 				class="hover:text-[#fcb100] transition-colors hidden md:block opacity-0 desktop_nav_item"
-				>Rooms</a
+				>{m.menu_rooms()}</a
 			>
-			<a
-				href="/dining"
-				class="hover:text-[#fcb100] transition-colors hidden md:block opacity-0 desktop_nav_item"
-				>Dining</a
-			>
-			<a
-				href="/spa"
-				class="hover:text-[#fcb100] transition-colors hidden md:block opacity-0 desktop_nav_item"
-				>Spa</a
-			>
+
 			<a
 				href="/contact"
 				class="hover:text-[#fcb100] transition-colors hidden md:block opacity-0 desktop_nav_item"
-				>Contact</a
+				>{m.menu_contact()}</a
 			>
 			<div class="hidden md:block opacity-0 desktop_nav_item">
 				<button onclick={() => switchToLanguage('en')}>🇺🇸</button>
@@ -144,26 +135,18 @@
 			<a
 				href="/"
 				class="text-2xl py-2 hover:text-[#fcb100] transition-colors text-3xl mobile_nav_item"
-				>Home</a
+				>{m.menu_home()}</a
 			>
 			<a
 				href="/rooms"
 				class="text-2xl py-2 hover:text-[#fcb100] transition-colors mobile_nav_item text-3xl"
-				>Rooms</a
+				>{m.menu_rooms()}</a
 			>
-			<a
-				href="/dining"
-				class="text-2xl py-2 hover:text-[#fcb100] transition-colors mobile_nav_item text-3xl"
-				>Dining</a
-			>
-			<a
-				href="/spa"
-				class="text-2xl py-2 hover:text-[#fcb100] transition-colors mobile_nav_item text-3xl">Spa</a
-			>
+
 			<a
 				href="/contact"
 				class="text-2xl py-2 hover:text-[#fcb100] transition-colors mobile_nav_item text-3xl"
-				>Contact</a
+				>{m.menu_contact()}</a
 			>
 			<div class="mobile_nav_item text-4xl mt-5">
 				<button

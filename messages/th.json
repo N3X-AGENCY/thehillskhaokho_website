@@ -3,6 +3,13 @@
 	"hello_world": "สวัสดี, {name}!",
 	"phone_invalid": "กรุณากรอกหมายเลขโทรศัพท์ 10 หลัก",
 
+	"menu_home": "หน้าแรก",
+	"menu_rooms": "ห้องพัก",
+	"menu_contact": "ติดต่อเรา",
+
+	"book_now_cta": "จองตอนนี้",
+	"booking_amenities_title": "สิ่งอำนวยความสะดวก",
+
 	"booking_dialog_title": "จอง {room_name}",
 	"our_rooms_title": "ห้องพักของเรา",
 	"contact_us_title": "ติดต่อเรา",
@@ -10,6 +17,11 @@
 	"contact_us_line_button": "ติดต่อเราได้ผ่าน Line",
 	"get_in_touch": "ติดต่อเรา",
 	"send_us_a_message": "ส่งข้อความไปยังเราและเราจะตอบกลับเร็วๆ นี้",
+
+	"contact_information": "ข้อมูลติดต่อ",
+	"contact_address_label": "ที่อยู่",
+	"contact_phone_label": "เบอร์โทรศัพท์",
+	"contact_email_label": "อีเมล",
 
 	"submit_booking": "ยืนยันการจอง",
 	"cancel": "ยกเลิก",
@@ -46,6 +58,7 @@
 	"amenities_luxuryBathroom": "ห้องน้ำหรู",
 	"amenities_premiumFurnishings": "เฟอร์นิเจอร์ระดับพรีเมียม",
 	"amenities_kingBed": "เตียงคิงไซส์",
+	"amenities_queenBed": "เตียงควีนไซส์",
 	"amenities_modernDesign": "ดีไซน์ทันสมัย",
 	"amenities_sittingArea": "มุมนั่งเล่น",
 	"amenities_twinBeds": "เตียงแฝด",
@@ -54,6 +67,7 @@
 	"amenities_privateOnsen": "ออนเซ็นส่วนตัว",
 	"amenities_familySpace": "พื้นที่สำหรับครอบครัว",
 	"amenities_livingArea": "พื้นที่นั่งเล่น",
+	"amenities_splitRoomsX2": "2 ห้องนอน",
 
 	"room_tentWhite_name": "เต็นท์ขาว",
 	"room_tentWhite_description": "ที่พักเต็นท์สีขาวสบายๆ พร้อมสิ่งอำนวยความสะดวกทันสมัย",

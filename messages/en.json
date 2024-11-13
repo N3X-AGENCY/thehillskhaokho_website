@@ -3,6 +3,13 @@
 	"hello_world": "Hello, {name}!",
 	"phone_invalid": "Please enter a valid 10-digit phone number",
 
+	"menu_home": "Home",
+	"menu_rooms": "Rooms",
+	"menu_contact": "Contact",
+
+	"book_now_cta": "Book Now",
+	"booking_amenities_title": "Amenities",
+
 	"booking_dialog_title": "Book {room_name}",
 	"our_rooms_title": "Our Rooms",
 	"contact_us_title": "Contact Us",
@@ -10,6 +17,11 @@
 	"contact_us_line_button": "Contact us via Line",
 	"get_in_touch": "Get in Touch",
 	"send_us_a_message": "Send us a message and we'll get back to you as soon as possible.",
+
+	"contact_information": "Contact Information",
+	"contact_address_label": "Address",
+	"contact_phone_label": "Phone",
+	"contact_email_label": "Email",
 
 	"submit_booking": "Submit Booking",
 	"cancel": "Cancel",
@@ -19,6 +31,7 @@
 	"lineId": "Line ID",
 
 	"amenities_airConditioning": "Air conditioning",
+	"amenities_splitRoomsX2": "Split into 2 rooms",
 	"amenities_privateBathroom": "Private bathroom",
 	"amenities_comfortableBedding": "Comfortable bedding",
 	"amenities_outdoorSeating": "Outdoor seating",
@@ -46,6 +59,8 @@
 	"amenities_luxuryBathroom": "Luxury bathroom",
 	"amenities_premiumFurnishings": "Premium furnishings",
 	"amenities_kingBed": "King bed",
+	"amenities_queenBed": "Queen bed",
+	"amenities_queenBed": "Queen bed",
 	"amenities_modernDesign": "Modern design",
 	"amenities_sittingArea": "Sitting area",
 	"amenities_twinBeds": "Twin beds",
